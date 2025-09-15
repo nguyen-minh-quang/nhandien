@@ -157,10 +157,7 @@ lbl_image_right.pack(expand=True, fill="both")
 lbl_result_text = tk.Label(frame_right, text="Ảnh Kết quả chuyển đổi")
 lbl_result_text.pack(pady=5)
 
-# ========== THÔNG TIN NHÓM ==========
-label_team = tk.Label(root, text="Nhóm:\n- Phạm Trọng Kiên (Trưởng nhóm)\n- Lê Đức Hoàng Nam\n- Nguyễn Minh Quang",
-                      font=("Arial", 10), justify="left", anchor="e")
-label_team.pack(side="bottom", pady=10, anchor="e")
+
 
 # Khởi chạy vòng lặp chính của giao diện
 root.mainloop()
